@@ -8,13 +8,14 @@ header, nav, section, article, aside, footer {
 
 html, body {
   box-sizing: border-box;
-
+  background-color: #2c2f3d;
   color: #FFFFFF;
   height: 100%;
   padding: 0;
   margin: 5px;
-  font-family: 'Lato', sans-serif; }
-
+  font-family: 'Lato', sans-serif;
+  overflow: hidden; /* Hide scrollbars */
+  } 
 /* Grid layout */
 .container {
   height: 100%;
@@ -31,7 +32,7 @@ html, body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 0px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(13, auto);
     grid-template-areas: "h h h h h h h h h h h h" "n n n n n n n n n n n n" "s s s s s s s d d d d d" "s s s s s s s d d d d d" "s s s s s s s d d d d d" "a a a a a a a d d d d d" "a a a a a a a d d d d d" "a a a a a a a d d d d d" "a a a a a a a d d d d d" "a a a a a a a d d d d d" "a a a a a a a d d d d d" "a a a a a a a d d d d d" "f f f f f f f f f f f f"; } }
@@ -41,12 +42,14 @@ header {
   background-image:url(https://i.imgur.com/f1mTYt7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  border: 1px solid white;
  }
 
 nav {
   grid-area: n;
   background-color: #2c2f3d;
   height: 100px;
+  border: 1px solid white;
  }
 
 section {
@@ -54,23 +57,27 @@ section {
   background-color: #2c2f3d;
   justify-content: center;
   font-size: 30px;
+  border: 1px solid white;
 }
   
 
 article {
   grid-area: a;
-  background-color: #2c2f3d; }
+  background-color: #2c2f3d; 
+  border: 1px solid white;
+}
 
 aside {
   grid-area: d;
   background-color: #2c2f3d;
- 
+  border: 1px solid white;
  }
 
 footer {
   grid-area: f;
   background-color:#2c2f3d; 
   height: 20px;
+  border: 1px solid white;
 }
 
 /* Responsive font sizing */
