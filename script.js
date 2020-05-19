@@ -1,6 +1,3 @@
-
-  
-
 const hideShowBtn = document.getElementById('hideShowBtn');
 
 
