@@ -1,10 +1,10 @@
 
   
 
-const hideBtn = document.getElementById('hideShowBtn');
+const hideShowBtn = document.getElementById('hideShowBtn');
 
 
-hideBtn.onclick = function() {
+hideShowBtn.onclick = function() {
     let div = document.getElementById('chatbox');
     if (div.style.display !== 'none') {
         div.style.display = 'none';
