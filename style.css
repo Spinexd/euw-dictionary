@@ -213,3 +213,42 @@ li {
     width: 94vw;
   }
 
+  @media (orientation: portrait) and (max-width: 1020px) {
+    h1 {
+      font-size: 12vw;
+    }
+ 
+    .navBtn {
+      margin: 10px;
+      padding: 10px;
+      font-size: 15px;
+    }
+ 
+    h2 {
+      font-size: 4vw;
+    }
+    
+    h4 {
+      font-size: 3vw;
+    }
+   p {
+     font-size: 2vw;
+   }
+    
+   #hideShowBtn {
+     
+   }
+   aside {
+     display: none;
+     background-color: #2c2f3d;
+     border: 1px solid white;
+    }
+   }
+   section {
+     width: 94vw;
+   }
+ 
+   article {
+     width: 94vw;
+   }
+  }
